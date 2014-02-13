@@ -1,0 +1,80 @@
+body {
+	background: #ffffff url("../../../images/background.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+[role=main], .main {
+	background: none;
+	padding-bottom: 0px;
+}
+.main.homepage {
+	border-top: 0px #ffffff solid;
+}
+.masthead {
+	background: none;
+}
+.masthead .container {
+	background: url("../../../images/entete.jpg");
+	height: 153px;
+}
+.masthead .logo {
+	float:left;
+	display: block;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.masthead .site-name {
+	float:left;
+	margin-left: 115px;
+	margin-top: 78px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 6px 3px 13px #000;
+}
+.masthead .site-name a:hover {
+	text-decoration: none;
+}
+.masthead .menu-container {
+	clear: both;
+	padding-top: 8px;
+	padding-left: 29px;
+	/*width: 940px;
+	height: 35px;
+	margin: 0px auto;
+	background-color: #ffffff;*/
+}
+
+.masthead .menu-container li {
+	
+} 
+.toolbar {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.site-footer {
+	background: none;
+	padding: 0px;
+}
+.site-footer .container {
+	background: rgba(0,0,0,0.6);
+	padding: 20px;
+	width:900px;
+	margin-bottom: 20px;
+}
+
+.footer-links, .attribution {
+	width: 440px;
+}
+
+.attribution .ckan-footer-logo {
+	display:block;
+	zoom:1;
+	display:inline-block;
+	vertical-align: bottom;
+}
+.lang-select {
+	float: right;
+	text-align: left;
+	margin: 0 0 5px;
+}
