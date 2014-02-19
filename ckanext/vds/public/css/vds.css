@@ -78,3 +78,31 @@ body {
 	text-align: left;
 	margin: 0 0 5px;
 }
+.green-box {
+	background-color:#98bf0e;
+	color:#ffffff;
+	border-color: #98bf0e;
+}
+.green-box a {
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+table.border td {
+	border-bottom: 1px solid #ccc;
+	padding: 3px;
+}
+table.border td.formats {
+	width: 75px;
+	text-align: center;
+}
+
+.label[data-format=gml], .label[data-format*=gml] {
+	background-color: #622181;
+}
+.label[data-format=kml], .label[data-format*=kml] {
+	background-color: #0C8A2D;
+}
+.label[data-format=shp], .label[data-format*=shp] {
+background-color: #18A096;
+}

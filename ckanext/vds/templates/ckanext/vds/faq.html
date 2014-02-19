@@ -1,7 +1,12 @@
 {% extends "page.html" %}
 
-{% block primary_content %}
-<div id="content">
+{% block breadcrumb_content %}
+  <li class="active"><a href="#">{{ _('Foire aux questions') }}</a></li>
+{% endblock %}
+
+{% block primary %}
+<article class="module">
+    <div class="module-content">
 	<!--  CONTENT ELEMENT, uid:85/text [begin] -->
 		<div id="c85" class="csc-default">
 		<!--  Header: [begin] -->
@@ -45,7 +50,13 @@
 		<!--  Header: [end] -->
 			
 		<!--  Text: [begin] -->
-			<p class="bodytext">En fonction de leur nature, les jeux de données sont offerts dans un ou plusieurs des formats suivants&nbsp;:</p><table summary="" class="border"><tbody><tr><td><img src="uploads/RTEmagicC_csv.png.png" alt="CSV" height="31" width="45"></td><td rowspan="1">Signifie « Comma-separated values » et désigne un format informatique ouvert représentant des données tabulaires sous forme de valeurs séparées par des virgules. Ce format de texte peut être ouvert par un chiffrier comme Excel</td></tr><tr><td><img src="fileadmin/website/images/gml.png" alt="GML" height="31" width="45"></td><td>Signifie « Geography Markup Language ». Langage dérivé du XML pour encoder, manipuler et échanger des données géographiques. Développé par l'Open Geospatial Consortium.<br><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" target="_blank">Contenu soumis à la licence CC-BY-SA</a>. Source : Article<em> <a href="http://fr.wikipedia.org/wiki/Geography_Markup_Language" target="_blank">Geography Markup Language</a></em>&nbsp;de <a href="http://fr.wikipedia.org/" target="_blank">Wikipédia en français</a> (<a href="http://fr.wikipedia.org/w/index.php?title=Geography_Markup_Language&amp;action=history" target="_blank">auteurs</a>)</td></tr><tr><td><img src="uploads/RTEmagicC_kml.png.png" alt="KML" height="31" width="45"></td><td>Signifie « Keyhole Markup Language » et désigne un format de type XML qui permet l'affichage de données géospatiales.</td></tr><tr><td><img src="uploads/RTEmagicC_shp.png.png" alt="SHP" height="31" width="45"></td><td>Format mis au point par ESRI, le "fichier de formes" désigne un format de fichiers lisibles par la plupart des logiciels de systèmes d'informations géographiques (ou SIG). Le fichier SHP est généralement accompagné d'autres fichiers (DBF, SHX, SHP, PRJ, etc.)</td></tr><tr><td><img src="uploads/RTEmagicC_json.png.png" alt="JSON" height="31" width="45"></td><td>JSON (JavaScript Object Notation) est un format de données textuel, générique, dérivé de la notation des objets du langage ECMAScript. Il permet de représenter de l’information structurée.<br><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" target="_blank">Contenu soumis à la licence CC-BY-SA</a>. Source :Article <em><a href="http://fr.wikipedia.org/wiki/JavaScript_Object_Notation">JavaScript Object Notation</a></em> de <a href="http://fr.wikipedia.org/">Wikipédia en français</a> (<a href="http://fr.wikipedia.org/w/index.php?title=JavaScript_Object_Notation&amp;action=history">auteurs</a>)</td></tr></tbody></table><p class="bodytext">Source des définitions : <a href="http://www.donnees.gouv.qc.ca/?node=/faq#usage" title="Opens external link in new window" target="_blank" class="external-link-new-window">Site de données ouvertes du Gouvernement du Québec</a>
+			<p class="bodytext">En fonction de leur nature, les jeux de données sont offerts dans un ou plusieurs des formats suivants&nbsp;:</p><table summary="" class="border"><tbody>
+			<tr><td class="formats"><a href="#" class="label" data-format="csv">CSV</a></td><td rowspan="1">Signifie « Comma-separated values » et désigne un format informatique ouvert représentant des données tabulaires sous forme de valeurs séparées par des virgules. Ce format de texte peut être ouvert par un chiffrier comme Excel</td></tr>
+			<tr><td class="formats"><a href="#" class="label" data-format="gml">GML</a></td><td>Signifie « Geography Markup Language ». Langage dérivé du XML pour encoder, manipuler et échanger des données géographiques. Développé par l'Open Geospatial Consortium.<br><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" target="_blank">Contenu soumis à la licence CC-BY-SA</a>. Source : Article<em> <a href="http://fr.wikipedia.org/wiki/Geography_Markup_Language" target="_blank">Geography Markup Language</a></em>&nbsp;de <a href="http://fr.wikipedia.org/" target="_blank">Wikipédia en français</a> (<a href="http://fr.wikipedia.org/w/index.php?title=Geography_Markup_Language&amp;action=history" target="_blank">auteurs</a>)</td></tr>
+			<tr><td class="formats"><a href="#" class="label" data-format="kml">KML</a></td><td>Signifie « Keyhole Markup Language » et désigne un format de type XML qui permet l'affichage de données géospatiales.</td></tr>
+			<tr><td class="formats"><a href="#" class="label" data-format="shp">SHP</a></td><td>Format mis au point par ESRI, le "fichier de formes" désigne un format de fichiers lisibles par la plupart des logiciels de systèmes d'informations géographiques (ou SIG). Le fichier SHP est généralement accompagné d'autres fichiers (DBF, SHX, SHP, PRJ, etc.)</td></tr>
+			<tr><td class="formats"><a href="#" class="label" data-format="json">JSON</a></td><td>JSON (JavaScript Object Notation) est un format de données textuel, générique, dérivé de la notation des objets du langage ECMAScript. Il permet de représenter de l’information structurée.<br><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" target="_blank">Contenu soumis à la licence CC-BY-SA</a>. Source :Article <em><a href="http://fr.wikipedia.org/wiki/JavaScript_Object_Notation">JavaScript Object Notation</a></em> de <a href="http://fr.wikipedia.org/">Wikipédia en français</a> (<a href="http://fr.wikipedia.org/w/index.php?title=JavaScript_Object_Notation&amp;action=history">auteurs</a>)</td>
+			</tr></tbody></table><p class="bodytext">Source des définitions : <a href="http://www.donnees.gouv.qc.ca/?node=/faq#usage" title="Opens external link in new window" target="_blank" class="external-link-new-window">Site de données ouvertes du Gouvernement du Québec</a>
 </p>
 <p class="bodytext"><a href="foire-aux-questions.html#c85" title="Opens internal link in current window" class="internal-link">Haut de la page</a></p>
 		<!--  Text: [end] -->
@@ -94,4 +105,7 @@
 			</div>
 	<!--  CONTENT ELEMENT, uid:73/text [end] -->
 		</div>
+		</article>
 {% endblock %}
+
+{% block secondary %}{% endblock %}

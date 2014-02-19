@@ -8,6 +8,28 @@
   <div role="main" class="hero">
     <div id="content" class="container">
       {{ self.flash() }}
+      <div id="camera_wrap" data-module="vds">
+	      <div data-src="images/ckan_header.jpg" data-link="http://hacksherbrooke.com/" data-target="_blank">
+	      	<div class="camera_caption">Nous vous invitons au premier hackathon Sherbrookois</div>
+	      </div>
+	      <div data-src="images/ckan_header.jpg" data-link="http://hacksherbrooke.com/" data-target="_blank">
+	      	<div class="camera_caption">Nous vous invitons au premier hackathon Sherbrookois</div>
+	      </div>
+      </div>
+      <script type="text/javascript" src="/js/jquery.min.js"></script>
+      <script type="text/javascript" src="/js/jquery.mobile.customized.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/camera.css">
+      <script type="text/javascript" src="/js/camera.min.js"></script>
+      <script type="text/javascript">
+      	jQuery('#camera_wrap').camera({
+      		alignment: 'topCenter', //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
+      		easing: 'linear',
+      		fx: 'scrollLeft',
+      		width:'100%',
+      		height:'250px',
+      		pagination:false,
+      	});
+      </script>
       {{ self.primary_content() }}
     </div>
   </div>
@@ -16,11 +38,12 @@
       {{ self.secondary_content() }}
     </div>
   </div>
+
 {% endblock %}
 
 {% block primary_content %}
   <div class="hero-primary module module-popup">
-    <div class="module-content box">
+    <div class="module-content box green-box">
       {% block home_primary %}
         <header>
           {% if g.site_intro_text %}
