@@ -23,6 +23,12 @@ class VdsPlugin(p.SingletonPlugin):
         map.connect('faq', '/foire-aux-questions.html',
             controller='ckanext.vds.controller:VdsController',
             action='faq')
+        map.connect('licence', '/licence',
+            controller='ckanext.vds.controller:VdsController',
+            action='licence')
+        map.connect('licence', '/licence.html',
+            controller='ckanext.vds.controller:VdsController',
+            action='licence')
         
         '''translated maps'''
         map.connect('nous-joindre', '/nous-joindre.html',
