@@ -1,0 +1,171 @@
+# French translations for ckanext-vds.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the ckanext-vds
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-vds 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-03-04 14:58-0500\n"
+"PO-Revision-Date: 2014-03-04 14:50-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ckanext/vds/templates/base.html:45
+msgid "Open Data Sherbrooke"
+msgstr "Données Ouvertes Sherbrooke"
+
+#: ckanext/vds/templates/footer.html:28
+msgid ""
+"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
+"href=\"http://ckan.org\">CKAN</a>"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:12
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:18
+msgid "View profile"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:24
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ckanext/vds/templates/header.html:32
+msgid "Edit settings"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:39
+msgid "Log out"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:51
+msgid "Log in"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:52
+msgid "Register"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:80
+msgid "Données Ouvertes"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:89
+msgid "Search Datasets"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:90 ckanext/vds/templates/header.html:91
+#: ckanext/vds/templates/home/index.html:89
+msgid "Search"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:103
+msgid "Home"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:104
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:105
+msgid "Organizations"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:106
+msgid "Groups"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:107
+#: ckanext/vds/templates/ckanext/vds/licence.html:4
+msgid "Licence"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:108
+msgid "FAQ"
+msgstr ""
+
+#: ckanext/vds/templates/header.html:109
+msgid "Contact Us"
+msgstr ""
+
+#: ckanext/vds/templates/ckanext/vds/faq.html:4
+msgid "Foire aux questions"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:3
+msgid "Welcome"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:53
+msgid "Welcome to CKAN"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:56
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site\n"
+"                in general. We don't have any copy to go here yet but "
+"soon we will\n"
+"                "
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:84
+msgid "Search Your Data"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:86
+msgid "eg. Events"
+msgstr "p. ex. Événements"
+
+#: ckanext/vds/templates/home/index.html:96
+msgid "Popular Tags"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:5
+msgid "Username"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:5
+msgid "username"
+msgstr "nom_utilisateur"
+
+#: ckanext/vds/templates/user/new_user_form.html:6
+msgid "Full Name"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:6
+msgid "Joe Bloggs"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:7
+msgid "Email"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:7
+msgid "joe@example.com"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:8
+msgid "Password"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:9
+msgid "Confirm"
+msgstr ""
+
+#: ckanext/vds/templates/user/new_user_form.html:11
+msgid "Create Account"
+msgstr ""
+
