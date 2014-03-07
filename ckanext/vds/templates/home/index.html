@@ -9,22 +9,22 @@
     <div id="content" class="container">
       {{ self.flash() }}
       <div id="camera_wrap" data-module="vds">
-	      <div data-src="images/ckan_header.jpg" data-link="http://hacksherbrooke.com/" data-target="_blank">
+	      <div data-src="/images/banners/ckan_header.jpg" data-link="http://hacksherbrooke.com/" data-target="_blank">
 	      	<div class="camera_caption">Nous vous invitons au premier hackathon Sherbrookois</div>
 	      </div>
-	      <div data-src="images/ckan_header.jpg" data-link="http://hacksherbrooke.com/" data-target="_blank">
-	      	<div class="camera_caption">Nous vous invitons au premier hackathon Sherbrookois</div>
+	      <div data-src="/images/banners/4logos_donnees.jpg" data-link="http://www.ville.sherbrooke.qc.ca/salle-de-presse/actualites/communiques-et-actualites/communiques/article/le-gouvernement-du-quebec-et-les-villes-de-quebec-montreal-gatineau-et-sherbrooke-adoptent-une/" data-target="_blank">
+	      	<div class="camera_caption">Une licence commune d’utilisation des données ouvertes.</div>
 	      </div>
       </div>
       <script type="text/javascript" src="/js/jquery.min.js"></script>
       <script type="text/javascript" src="/js/jquery.mobile.customized.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/camera.css">
+      <link rel="stylesheet" type="text/css" href="/css/camera.css">
       <script type="text/javascript" src="/js/camera.min.js"></script>
       <script type="text/javascript">
       	jQuery('#camera_wrap').camera({
       		alignment: 'topCenter', //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
       		easing: 'linear',
-      		fx: 'fade',
+      		fx: 'simpleFade',
       		width:'100%',
       		height:'250px',
       		pagination:false,
@@ -46,20 +46,12 @@
     <div class="module-content box green-box">
       {% block home_primary %}
         <header>
-          {% if g.site_intro_text %}
-          {{ h.render_markdown(g.site_intro_text) }}
-          {% else %}
-            {% block home_primary_content %}
-              <h1 class="page-heading">{% block home_primary_heading %}{{ _("Welcome to CKAN") }}{% endblock %}</h1>
-              <p>
-              {% block home_primary_text %}
-                {% trans %}This is a nice introductory paragraph about CKAN or the site
-                in general. We don't have any copy to go here yet but soon we will
-                {% endtrans %}
-              {% endblock %}
-              </p>
-            {% endblock %}
-          {% endif %}
+          
+        <h2>{{ _('DO YOU LIKE THE IDEA OF OPEN DATA?') }}</h2>
+		<p>{{ _('Tell us your ideas!') }}</p>
+		<p>{{ _('Suggest us new sets of useful data or applications that will improve the quality of life in our community.') }}</p>
+		<p>{{ _('Your suggestions are welcome') }}
+				<a href="http://vds-ckan.quatral.com/contact-us">{{ _('here') }}</a></p> 
         </header>
       {% endblock %}
 

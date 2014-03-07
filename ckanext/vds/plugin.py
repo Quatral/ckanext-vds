@@ -17,18 +17,21 @@ class VdsPlugin(p.SingletonPlugin):
         toolkit.add_public_directory(config, 'public')
         
     def after_map(self, map):
-        map.connect('faq', '/faq',
-            controller='ckanext.vds.controller:VdsController',
-            action='faq')
         map.connect('faq', '/foire-aux-questions.html',
             controller='ckanext.vds.controller:VdsController',
             action='faq')
-        map.connect('licence', '/licence',
+        map.connect('faq', '/faq',
             controller='ckanext.vds.controller:VdsController',
-            action='licence')
+            action='faq')
         map.connect('licence', '/licence.html',
             controller='ckanext.vds.controller:VdsController',
             action='licence')
+        map.connect('licence', '/licence',
+            controller='ckanext.vds.controller:VdsController',
+            action='licence')
+        map.connect('licence_complete', '/licence_complete',
+            controller='ckanext.vds.controller:VdsController',
+            action='licence_complete')
         
         '''translated maps'''
         map.connect('nous-joindre', '/nous-joindre.html',
@@ -37,4 +40,8 @@ class VdsPlugin(p.SingletonPlugin):
         map.connect('nous-joindre', '/nous-joindre',
             controller='ckanext.contact_us.controller:ContactUsController',
             action='index')
+        map.connect('licence', '/licence',
+            controller='ckanext.vds.controller:VdsController',
+            action='licence')
+        
         return map  

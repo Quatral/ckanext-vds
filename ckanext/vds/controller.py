@@ -21,4 +21,9 @@ class VdsController(BaseController):
         #error_summary = errors
         #vars = {'data': data, 'errors': errors, 'error_summary': error_summary}
         return render('ckanext/vds/licence.html')
+    def licence_complete(self, context=None):
+        print h.lang()
+        #error_summary = errors
+        #vars = {'data': data, 'errors': errors, 'error_summary': error_summary}
+        return render('ckanext/vds/licence_complete.html')
     

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-vds 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-04 14:58-0500\n"
+"POT-Creation-Date: 2014-03-06 21:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "Register"
 msgstr ""
 
 #: ckanext/vds/templates/header.html:80
-msgid "Données Ouvertes"
+msgid "Open Data"
 msgstr ""
 
 #: ckanext/vds/templates/header.html:89
@@ -67,7 +67,7 @@ msgid "Search Datasets"
 msgstr ""
 
 #: ckanext/vds/templates/header.html:90 ckanext/vds/templates/header.html:91
-#: ckanext/vds/templates/home/index.html:89
+#: ckanext/vds/templates/home/index.html:81
 msgid "Search"
 msgstr ""
 
@@ -89,6 +89,7 @@ msgstr ""
 
 #: ckanext/vds/templates/header.html:107
 #: ckanext/vds/templates/ckanext/vds/licence.html:4
+#: ckanext/vds/templates/ckanext/vds/licence_complete.html:4
 msgid "Licence"
 msgstr ""
 
@@ -104,31 +105,45 @@ msgstr ""
 msgid "Foire aux questions"
 msgstr ""
 
+#: ckanext/vds/templates/ckanext/vds/licence_complete.html:5
+msgid "Licence complète"
+msgstr ""
+
 #: ckanext/vds/templates/home/index.html:3
 msgid "Welcome"
 msgstr ""
 
-#: ckanext/vds/templates/home/index.html:53
-msgid "Welcome to CKAN"
+#: ckanext/vds/templates/home/index.html:50
+msgid "DO YOU LIKE THE IDEA OF OPEN DATA?"
 msgstr ""
 
-#: ckanext/vds/templates/home/index.html:56
+#: ckanext/vds/templates/home/index.html:51
+msgid "Tell us your ideas!"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:52
 msgid ""
-"This is a nice introductory paragraph about CKAN or the site\n"
-"                in general. We don't have any copy to go here yet but soon we"
-" will\n"
-"                "
+"Suggest us new sets of useful data or applications that will improve the "
+"quality of life in our community."
 msgstr ""
 
-#: ckanext/vds/templates/home/index.html:84
+#: ckanext/vds/templates/home/index.html:53
+msgid "Your suggestions are welcome"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:54
+msgid "here"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:76
 msgid "Search Your Data"
 msgstr ""
 
-#: ckanext/vds/templates/home/index.html:86
+#: ckanext/vds/templates/home/index.html:78
 msgid "eg. Events"
 msgstr ""
 
-#: ckanext/vds/templates/home/index.html:96
+#: ckanext/vds/templates/home/index.html:88
 msgid "Popular Tags"
 msgstr ""
 
