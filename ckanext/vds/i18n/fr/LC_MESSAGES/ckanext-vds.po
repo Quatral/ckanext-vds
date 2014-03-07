@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-vds 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-06 21:45-0500\n"
+"POT-Creation-Date: 2014-03-07 00:29-0500\n"
 "PO-Revision-Date: 2014-03-04 14:50-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -114,6 +114,14 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
+#: ckanext/vds/templates/home/index.html:12
+msgid "ckan_header.jpg"
+msgstr "ckan_header_fr.jpg"
+
+#: ckanext/vds/templates/home/index.html:13
+msgid "We invite you to the first Sherbrooke Hackathon"
+msgstr "Nous vous invitons au premier hackathon Sherbrookois"
+
 #: ckanext/vds/templates/home/index.html:50
 msgid "DO YOU LIKE THE IDEA OF OPEN DATA?"
 msgstr "LES DONNÉES OUVERTES VOUS ALLUMENT?"
@@ -185,7 +193,4 @@ msgstr ""
 #: ckanext/vds/templates/user/new_user_form.html:11
 msgid "Create Account"
 msgstr ""
-
-#~ msgid "Données Ouvertes"
-#~ msgstr ""
 
