@@ -1,19 +1,5 @@
 [
   {
-    "domain_content": false, 
-    "domain_data": false, 
-    "domain_software": false, 
-    "family": "", 
-    "id": "notspecified", 
-    "is_generic": true, 
-    "is_okd_compliant": false, 
-    "is_osi_compliant": false, 
-    "maintainer": "", 
-    "status": "active", 
-    "title": "Licence non précisé", 
-    "url": ""
-  }, 
-  {
     "domain_content": true, 
     "domain_data": false, 
     "domain_software": false, 
@@ -21,9 +7,23 @@
     "id": "cc-by", 
     "is_okd_compliant": true, 
     "is_osi_compliant": false, 
+    "is_generic": true, 
     "maintainer": "", 
     "status": "active", 
     "title": "Creative Commons 4.0", 
     "url": "http://donnees.ville.sherbrooke.qc.ca/licence"
-  }
+  },
+  {
+    "domain_content": false, 
+    "domain_data": false, 
+    "domain_software": false, 
+    "family": "", 
+    "id": "notspecified", 
+    "is_okd_compliant": false, 
+    "is_osi_compliant": false, 
+    "maintainer": "", 
+    "status": "active", 
+    "title": "Licence non précisé", 
+    "url": ""
+  } 
 ]

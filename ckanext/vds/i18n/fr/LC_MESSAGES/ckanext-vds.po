@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-vds 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-07 00:29-0500\n"
+"POT-Creation-Date: 2014-03-09 20:53-0400\n"
 "PO-Revision-Date: 2014-03-04 14:50-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -21,6 +21,10 @@ msgstr ""
 #: ckanext/vds/templates/base.html:45
 msgid "Open Data Sherbrooke"
 msgstr "Données Ouvertes Sherbrooke"
+
+#: ckanext/vds/templates/footer.html:19
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
 
 #: ckanext/vds/templates/footer.html:28
 msgid ""
