@@ -17,15 +17,9 @@ class VdsPlugin(p.SingletonPlugin):
         toolkit.add_public_directory(config, 'public')
         
     def after_map(self, map):
-        map.connect('faq', '/foire-aux-questions.html',
-            controller='ckanext.vds.controller:VdsController',
-            action='faq')
         map.connect('faq', '/faq',
             controller='ckanext.vds.controller:VdsController',
             action='faq')
-        map.connect('licence', '/licence.html',
-            controller='ckanext.vds.controller:VdsController',
-            action='licence')
         map.connect('licence', '/licence',
             controller='ckanext.vds.controller:VdsController',
             action='licence')
@@ -34,14 +28,19 @@ class VdsPlugin(p.SingletonPlugin):
             action='licence_complete')
         
         '''translated maps'''
-        map.connect('nous-joindre', '/nous-joindre.html',
-            controller='ckanext.contact_us.controller:ContactUsController',
-            action='index')
         map.connect('nous-joindre', '/nous-joindre',
             controller='ckanext.contact_us.controller:ContactUsController',
             action='index')
         map.connect('licence', '/licence',
             controller='ckanext.vds.controller:VdsController',
             action='licence')
+        
+        '''Redirects'''
+        map.redirect('/foire-aux-questions.html', '/faq')
+        map.redirect('/licence.html', '/licence')
+        map.redirect('/nous-joindre.html', '/nous-joindre')
+        map.redirect('/catalogue-de-donnees.html', '/dataset')
+        map.redirect('/accueil.html', '/')
+        
         
         return map  
