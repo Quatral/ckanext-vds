@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-vds 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-09 20:53-0400\n"
+"POT-Creation-Date: 2014-03-14 17:00-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,6 +123,14 @@ msgstr ""
 
 #: ckanext/vds/templates/home/index.html:13
 msgid "We invite you to the first Sherbrooke Hackathon"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:15
+msgid "4logos_donnees_anglais.jpg"
+msgstr ""
+
+#: ckanext/vds/templates/home/index.html:16
+msgid "Joint licence to use open data."
 msgstr ""
 
 #: ckanext/vds/templates/home/index.html:50
