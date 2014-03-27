@@ -9,9 +9,11 @@
     <div id="content" class="container">
       {{ self.flash() }}
       <div id="camera_wrap" data-module="vds">
-	      <div data-src="/images/banners/{{_('ckan_header.jpg')}}" data-link="http://hacksherbrooke.com/" data-target="_blank">
+          {#
+   	      <div data-src="/images/banners/{{_('ckan_header.jpg')}}" data-link="http://hacksherbrooke.com/" data-target="_blank">
 	      	<div class="camera_caption">{{_('We invite you to the first Sherbrooke Hackathon')}}</div>
 	      </div>
+          #}
 	      <div data-src="/images/banners/{{_('4logos_donnees_anglais.jpg')}}" data-link="http://www.ville.sherbrooke.qc.ca/salle-de-presse/actualites/communiques-et-actualites/communiques/article/le-gouvernement-du-quebec-et-les-villes-de-quebec-montreal-gatineau-et-sherbrooke-adoptent-une/" data-target="_blank">
 	      	<div class="camera_caption">{{_('Joint licence to use open data.')}}</div>
 	      </div>
@@ -28,6 +30,9 @@
       		width:'100%',
       		height:'250px',
       		pagination:false,
+      		autoAdvance: false,
+      		playPause: false,
+      		navigation: false
       	});
       </script>
       {{ self.primary_content() }}
